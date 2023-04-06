@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/mFavorito"
+        android:icon="@drawable/baseline_favorite"
+        android:title="Favoritos"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/mCompartilhar"
+        android:icon="@drawable/baseline_share"
+        android:title="Compartilhar"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/mNotificação"
+        android:icon="@drawable/baseline_notifications"
+        android:title="Notificação"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/mPesquisar"
+        android:icon="@drawable/baseline_search"
+        android:title="Pesquisar"
+        app:showAsAction="ifRoom" />
+</menu>
