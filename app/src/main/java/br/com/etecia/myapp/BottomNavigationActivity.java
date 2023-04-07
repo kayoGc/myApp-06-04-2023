@@ -3,6 +3,7 @@ package br.com.etecia.myapp;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.widget.Toast;
@@ -23,7 +24,7 @@ public class BottomNavigationActivity extends AppCompatActivity {
                 switch (item.getItemId()) {
 
                     case R.id.mNavFavorite:
-                        Toast.makeText(getApplicationContext(), "Cliquei no favorito", Toast.LENGTH_SHORT).show();
+                        startActivity(new Intent(getApplicationContext(), MainActivity.class));
                         break;
                     case R.id.mNavMusic:
                         Toast.makeText(getApplicationContext(), "Cliquei na música", Toast.LENGTH_SHORT).show();

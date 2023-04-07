@@ -12,6 +12,9 @@
         android:theme="@style/Theme.MyApp"
         tools:targetApi="31">
         <activity
+            android:name=".CardViewActivity"
+            android:exported="false" />
+        <activity
             android:name=".BottomNavigationActivity"
             android:exported="false" />
         <activity
